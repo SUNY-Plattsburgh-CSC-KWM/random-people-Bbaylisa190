@@ -16,7 +16,7 @@ async function buildTable() {
 	try {
 		const data = await getPeople();
 	} catch (e) {
-		console.log("Error " + e);
+		console.log("Error " - e);
 	}
 }
 
